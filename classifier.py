@@ -1,7 +1,7 @@
 import math
 
 def pyt(point1, point2):
-    assert (len(point1) == len(point1)), "data size mismatch"
+    assert (len(point1) == len(point2)), "data size mismatch"
     dims = len(point1)
     stuffs = []
     total = 0
